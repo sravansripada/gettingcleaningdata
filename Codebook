@@ -1,0 +1,17 @@
+X_test : X Test dataset
+X_train: X Train dataset
+Y_train: Y train dataset
+Y_test: Y Test dataset
+subject_test: Subject test dataset
+subject_train: Subject train dataset
+features: features dataset
+X: Appended X train and test dataset
+Y: Appended Y train and test dataset
+subject: Appended Y train and test dataset
+data - merge of all the features, activity and subject
+data_mean : Extract only mean columns
+data_std: Extract std columns
+Activity: Data with activity info
+Subject: Data with subject info
+data_mean_std: Dataset with mean, standard deviation, activity names and subject columns
+tidy_data: Final tidy dataset with mean for all the columns at Acitivy name and subject level
