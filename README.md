@@ -7,7 +7,7 @@ Course project submission for getting and cleaning data
 I have included the question number #1, #2 etc for respective parts of the code
 
 1. The name of the R code is run_Analysis.R
-2. First step is to set the directory
+2. First step is to set the directory. Working directory should have all the raw data files
 3. Test and Train data along with features is read using read.table command
 4. All the column names have been renamed as needed 
 5. X training and test set have been appended using rbind and Y, subject sets are merged using cbind. Please note that ordering
